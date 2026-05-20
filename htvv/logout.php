@@ -1,5 +1,5 @@
-<!-- Developer eonbry -->
 <?php
+// Developer eonbry
 
 
 session_start();

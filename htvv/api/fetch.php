@@ -1,5 +1,5 @@
-<!-- Developer eonbry -->
 <?php
+// Developer eonbry
 
 
 $path = "0_ibop.txt";

@@ -1,5 +1,5 @@
-<!-- Developer eonbry -->
 <?php
+// Developer eonbry
 
 
 $ipl = real_ip();
@@ -59,6 +59,7 @@ echo get_device();
 echo "</i></p>\n<p>>>>>> <span>Tor Browser</span>: <i>";
 echo istorexitpoint();
 echo "</i></p>\n<p>>>>>> <span>@admin</span>:  <i>Logging Session And Recording Ip:</i> <j> \" Completed . . . \"</j></p>\n<p>>>>>> <span>@admin</span>:  <i>Preparing to DDos Recorded Ip:</i> <j>\" Successful . . . \"</j></p>\n<p>>>>>> <span>@admin</span>:  <j>\" </j><a>!!! You Will Be Blacklisted Shortly.... !!!</a><j> \"</j></i></p>\n\n\n\n</div>\n\t\t\n<script>\nvar str = document.getElementsByTagName('div')[0].innerHTML.toString();\nvar i = 0;\ndocument.getElementsByTagName('div')[0].innerHTML = \"\";\n\nsetTimeout(function() {\n    var se = setInterval(function() {\n        i++;\n        document.getElementsByTagName('div')[0].innerHTML = str.slice(0, i) + \"|\";\n        if (i == str.length) {\n            clearInterval(se);\n            document.getElementsByTagName('div')[0].innerHTML = str;\n        }\n    }, 10);\n},0);\n\n\n</script>\n\n";
+}
 function real_ip()
 {
     $ip = "undefined";

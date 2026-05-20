@@ -1,6 +1,5 @@
-<!-- Developer eonbry -->
-    
 <?php
+// Developer eonbry
 
 
 $ipl = real_ip();
