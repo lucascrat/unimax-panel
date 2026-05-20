@@ -1,0 +1,7 @@
+*.zip
+*.log
+*.mp4
+*.apk
+.idea/
+.vscode/
+# Não ignore os arquivos .db aqui pois eles servirão como template inicial

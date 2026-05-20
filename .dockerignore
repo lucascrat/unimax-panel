@@ -1,0 +1,9 @@
+.git
+.github
+Dockerfile
+.dockerignore
+*.zip
+*.log
+*.mp4
+*.apk
+*.png

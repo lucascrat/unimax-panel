@@ -1,0 +1,11 @@
+{
+    "title": "Fale com seu Vendedor",
+    "content": "Entre em contato caso Tenha Problemas.!",
+    "status_text": "Bem-vindo! Ao UniMax TV  Explore canais, filmes, séries, infantil e esportes.",
+    "support_url": "https://maxloja.xyz/",
+    "player_notice_enabled": 0,
+    "player_notice_text": "ATENÇÃO: Estamos passando por um processo de ajustes e melhorias nos canais ao vivo.  Nossa equipe já está atuando para reduzir ao máximo qualquer instabilidade durante esse período.",
+    "player_notice_duration_sec": 120,
+    "player_notice_started_at": 0,
+    "player_notice_scope": "all"
+}
