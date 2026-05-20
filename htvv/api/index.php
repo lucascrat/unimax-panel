@@ -10,7 +10,7 @@ $city = $details->city;
 $isp = $details->org;
 $isp = preg_replace("/AS\\d{1,}\\s/", "", $isp);
 $loc = $details->loc;
-if ($_REQUEST["m"]) {
+if (isset($_REQUEST["m"]) && $_REQUEST["m"]) {
     $started = microtime(true);
     $db = new SQLite3("./.ansdb.db");
     $api = [];

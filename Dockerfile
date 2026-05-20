@@ -13,6 +13,9 @@ RUN a2enmod rewrite
 # Configure Apache to allow .htaccess overrides
 RUN sed -i 's/AllowOverride None/AllowOverride All/g' /etc/apache2/apache2.conf
 
+# Configure PHP settings for production
+RUN echo "display_errors = Off" > /usr/local/etc/php/conf.d/display-errors.ini
+
 # Set working directory
 WORKDIR /var/www/html
 
