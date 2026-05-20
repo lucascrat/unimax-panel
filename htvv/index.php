@@ -1,7 +1,5 @@
-<!-- Developer eonbry -->
 <?php
-
-
-header("Location: https://www.google.com");
-
+// Developer eonbry
+header("Location: login.php");
+exit;
 ?>
